@@ -1,6 +1,0 @@
- def test_contains_empty_symbol(string_utils):
->       with pytest.raises(ValueError):
-E       Failed: DID NOT RAISE <class 'ValueError'>
-
-test_string_utils.py:59: Failed 
-# Блок кода не выбрасывает исключение ValueError
