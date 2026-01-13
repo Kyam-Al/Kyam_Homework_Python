@@ -6,11 +6,21 @@ class Total:
 
     def __init__(self, driver):
 
+        """
+        Конструктор класса
+        
+        :param driver: Объект драйвера в selenium
+        """
+
         self.driver = driver
 
 
 
     def get_total(self):
+
+        """
+        Проверка отображения ожидаемой стоимости заказа
+        """
 
         total_locator = (By.CLASS_NAME, "summary_total_label")
 
